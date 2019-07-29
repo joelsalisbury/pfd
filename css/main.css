@@ -105,13 +105,28 @@ textarea {
 
    .hero {
     height:30vh;
-    background:url(../img/hero2.jpg);
-    background-size:cover;
-    /* background-position: center -50vh; */
+ 
+    background-size: cover;
+    
     background-attachment: fixed;
     display:flex;
     justify-content: flex-start;
     align-items: flex-end;
+   }
+
+   .home .hero {
+     background-position: center -50vh;
+     background-image:url(../img/hero3.jpg);
+   }
+
+   .volunteer .hero {
+    background-position: center -50vh;
+    background-image:url(../img/hero5.jpg);
+   }
+
+   .contact .hero {
+    background-position: center -50vh;
+    background-image:url(../img/hero4.jpg);
    }
 
 
