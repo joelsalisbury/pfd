@@ -105,10 +105,8 @@ textarea {
 
    .hero {
     height:30vh;
- 
     background-size: cover;
-    
-    background-attachment: fixed;
+   
     background-repeat: no-repeat;
     display:flex;
     justify-content: flex-start;
@@ -116,17 +114,17 @@ textarea {
    }
 
    .home .hero {
-     background-position: center -50vh;
+    background-position: 0 70%;
      background-image:url(../img/hero3.jpg);
    }
 
    .volunteer .hero {
-    background-position: center -50vh;
+    background-position: 0 70%;
     background-image:url(../img/hero5.jpg);
    }
 
    .contact .hero {
-    background-position: center -50vh;
+    background-position: 0 70%;
     background-image:url(../img/hero4.jpg);
    }
 
