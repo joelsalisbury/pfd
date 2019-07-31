@@ -116,7 +116,7 @@ textarea {
    
 
    .home .hero {
-     height:60vh;
+     height:40vh;
      background-position: 0 70%;
      background-image:url(../img/hero3.jpg);
    }
@@ -143,6 +143,7 @@ textarea {
     font-weight: lighter;
     box-shadow: 10px 10px 53px 0px rgba(162,192,103,0.6);
     text-transform: uppercase;
+    font-size:24px;
     margin:0px;
    }
 
@@ -220,7 +221,12 @@ textarea {
      }
 
      .home .hero {
-    }
+       height:60vh;
+     }
+
+     .hero h1 {
+       font-size:48px;
+     }
 
      .content {
        flex:2;
