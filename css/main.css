@@ -113,8 +113,11 @@ textarea {
     align-items: flex-end;
    }
 
+   
+
    .home .hero {
-    background-position: 0 70%;
+     height:60vh;
+     background-position: 0 70%;
      background-image:url(../img/hero3.jpg);
    }
 
@@ -217,7 +220,6 @@ textarea {
      }
 
      .home .hero {
-      height:60vh;
     }
 
      .content {
